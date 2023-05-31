@@ -111,7 +111,7 @@ int main(){
         printf("\nEnter no. of bowlers in team A:");
         scanf("%d",&A);
         teamA_bowl(A);
-        printf("<div class=\"intro\">\n<h1 class=\"title\">🏆CRICKET CHAMPIONSHIP🏆</h1>\n<img src=\"cricket.png\" alt="" width=\"400px\"> <br />\n</div>");
+        printf("<div class=\"intro\">\n<h1 class=\"title\">CRICKET CHAMPIONSHIP</h1>\n<img src=\"cricket.png\" alt="" width=\"400px\"> <br />\n</div>");
         
 //TEAM A BATTING
         printf("<section class=\"teama\">\n<h1 class=\"text\">TEAM A BATTING</h1>\n<div class=\"tbl-header\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<thead class=\"b1\">\n<tr class=\"b1\">\n<th>Sr. no.</th>\n<th>Batsman's Name</th>\n<th>Runs</th>\n<th>Balls</th>\n<th>Fours</th>\n<th>Sixes</th>\n<th>Strike Rate</th>\n</tr>\n</thead>\n</table>\n</div>\n");
@@ -279,7 +279,7 @@ printf("<h1 class=\"text\">TEAM B BOWLING</h1><div class=\"tbl-header\"><table c
     printf("</div>\n</div>\n");
     printf("<div class=\"card3\" style=\"width: 18rem;\">\n<img src=\"https://image.made-in-china.com/44f3j00OvlacWRGaPue/Sportswear-Hat-Wholesales-Fashion-Design-Unisex-Purple-Caps-GST-CAP-XN01-2-.jpg\" class=\"card-img-top\" alt=\"...\" width=\"40px\">");
     if(max_wickets_A>max_wickets_B){
-    printf("<div class=\"card-body\">\n<h3 class=\"card-title\">PURPLE CAP</h3>\n<p class=\"card-text\">\n<h4>Player name -%s</h4>\n<h3>Wickets taken-%d</h3>\n</p>\n</div>\n</div>",bo_A[iw_A].name,bo_A);}
+    printf("<div class=\"card-body\">\n<h3 class=\"card-title\">PURPLE CAP</h3>\n<p class=\"card-text\">\n<h4>Player name -%s</h4>\n<h3>Wickets taken-%d</h3>\n</p>\n</div>\n</div>",bo_A[iw_A].name,bo_A[iw_A].wickets);}
     else{
-    printf("<div class=\"card-body\">\n<h3 class=\"card-title\">PURPLE CAP</h3>\n<p class=\"card-text\">\n<h4>Player name -%s</h4>\n<h3>Wickets taken-%d</h3>\n</p>\n</div>\n</div>",bo_A[iw_A].name,bo_A);}
+    printf("<div class=\"card-body\">\n<h3 class=\"card-title\">PURPLE CAP</h3>\n<p class=\"card-text\">\n<h4>Player name -%s</h4>\n<h3>Wickets taken-%d</h3>\n</p>\n</div>\n</div>",bo_B[iw_B].name,bo_B[iw_B].wickets);}
 }
