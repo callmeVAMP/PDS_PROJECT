@@ -126,7 +126,7 @@ int main(){
 
 //TEAM B BOWLING
         printf("<section class=\"teama\">\n");
-        printf("<h1 class=\"text\">TEAM B BOWLING</h1>\n<div class=\"tbl-header\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<thead><tr>\n<th>Sr. no.</th>\n<th>Bowler's Name</th>\n<th>Wicket</th>\n<th>Balls</th>\n<th>Economy</th>\n</tr>\n</thead>\n</table>\n</div>\n");
+        printf("<h1 class=\"text\">TEAM B BOWLING</h1>\n<div class=\"tbl-header\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<thead><tr>\n<th>Sr. no.</th>\n<th>Bowler's Name</th>\n<th>Runs</th>\n<th>Overs</th>\n<th>Wickets</th>\n<th>Economy</th>\n</tr>\n</thead>\n</table>\n</div>\n");
 
 
         printf("<div class=\"tbl-content\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tbody>\n");
@@ -150,7 +150,7 @@ printf("<section class=\"teamb\">");
 
 //TEAM A BOWLING
 printf("<h1 class=\"text\">TEAM A BOWLING</h1><div class=\"tbl-header\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><thead>");
-    printf("<tr>\n<th class=\"b1\">Sr no.</th>\n<th class=\"b1\">Bowler's Name</th>\n<th class=\"b1\">Wicket</th>\n<th class=\"b1\">Balls</th>\n<th class=\"b1\">Economy</th>\n</tr>\n</thead>\n</table>\n</div>\n<div class=\"tbl-content\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<tbody>\n");
+    printf("<tr>\n<th class=\"b1\">Sr no.</th>\n<th class=\"b1\">Bowler's Name</th>\n<th class=\"b1\">Runs</th>\n<th class=\"b1\">Overs</th>\n<th class=\"b1\">Wickets</th>\n<th class=\"b1\">Economy</th>\n</tr>\n</thead>\n</table>\n</div>\n<div class=\"tbl-content\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<tbody>\n");
 
         for(int i=0;i<A;i++){
             printf("<tr>\n");
@@ -187,7 +187,7 @@ printf("<div class=\"tbl-content\">\n<table cellpadding=\"0\" cellspacing=\"0\" 
 
 //TEAM A BOWLING
         printf("<section class=\"teama\">\n");
-        printf("<h1 class=\"text\">TEAM A BOWLING</h1>\n<div class=\"tbl-header\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<thead><tr>\n<th>Sr. no.</th>\n<th>Bowler's Name</th>\n<th>Wicket</th>\n<th>Balls</th>\n<th>Economy</th>\n</tr>\n</thead>\n</table>\n</div>\n");
+        printf("<h1 class=\"text\">TEAM A BOWLING</h1>\n<div class=\"tbl-header\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<thead><tr>\n<th>Sr. no.</th>\n<th>Bowler's Name</th>\n<th>Runs</th>\n<th>Overs</th>\n<th>Wickets</th>\n<th>Economy</th>\n</tr>\n</thead>\n</table>\n</div>\n");
 
 
         printf("<div class=\"tbl-content\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tbody>\n");
@@ -211,7 +211,7 @@ printf("<section class=\"teama\">\n<h1 class=\"text\">TEAM A BATTING</h1>\n<div 
 
 //TEAM B BOWLING
 printf("<h1 class=\"text\">TEAM B BOWLING</h1><div class=\"tbl-header\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><thead>");
-    printf("<tr>\n<th class=\"b1\">Sr no.</th>\n<th class=\"b1\">Bowler's Name</th>\n<th class=\"b1\">Wicket</th>\n<th class=\"b1\">Balls</th>\n<th class=\"b1\">Economy</th>\n</tr>\n</thead>\n</table>\n</div>\n<div class=\"tbl-content\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<tbody>\n");
+    printf("<tr>\n<th class=\"b1\">Sr no.</th>\n<th class=\"b1\">Bowler's Name</th>\n<th class=\"b1\">Runs</th>\n<th class=\"b1\">Overs</th>\n<th class=\"b1\">Wickets</th>\n<th class=\"b1\">Economy</th>\n</tr>\n</thead>\n</table>\n</div>\n<div class=\"tbl-content\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<tbody>\n");
 
         for(int i=0;i<B;i++){
             printf("<tr>\n");
